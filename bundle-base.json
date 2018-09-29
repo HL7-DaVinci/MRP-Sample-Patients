@@ -8,7 +8,7 @@
           "resourceType": "Patient",
           "id": "patient01",
           "meta": {
-            "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"]
+            "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"]
           },
           "active": true,
           "identifier": [
@@ -127,7 +127,7 @@
           "resourceType": "Patient",
           "id": "patient02",
           "meta": {
-            "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"]
+            "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"]
           },
           "active": true,
           "identifier": [
@@ -246,7 +246,7 @@
           "resourceType": "Patient",
           "id": "patient03",
           "meta": {
-            "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"]
+            "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"]
           },
           "active": true,
           "identifier": [
@@ -365,13 +365,14 @@
             "resourceType": "Organization",
             "id": "organization01",
             "meta": {
-                "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/organization-davinci"]
+                "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/organization-deqm"]
             },
             "active": true,
             "identifier": [
                 {
                     "use": "official",
-                    "system": "http://hl7.org/fhir/sid/us-tin",
+                    "type": "TAX",
+                    "system": "http://hl7.org/fhir/us/davinci-deqm/STU3/sid/us-tin",
                     "value": "123456789",
                     "assigner": {
                         "display": "www.irs.gov"
@@ -419,13 +420,14 @@
             "resourceType": "Organization",
             "id": "organization02",
             "meta": {
-                "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/organization-davinci"]
+                "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/organization-deqm"]
             },
             "active": true,
             "identifier": [
                 {
                     "use": "official",
-                    "system": "http://hl7.org/fhir/sid/us-tin",
+                    "type": "TAX",
+                    "system": "http://hl7.org/fhir/us/davinci-deqm/STU3/sid/us-tin",
                     "value": "234567891",
                     "assigner": {
                         "display": "www.irs.gov"
@@ -473,12 +475,13 @@
             "resourceType": "Organization",
             "id": "organization03",
             "meta": {
-                "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/organization-davinci"]
+                "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/organization-deqm"]
             },
             "active": true,
             "identifier": [
                 {
                     "use": "official",
+                    "type": "PRN",
                     "system": "http://hl7.org/fhir/sid/us-npi",
                     "value": "345678912",
                     "assigner": {
@@ -527,13 +530,14 @@
             "resourceType": "Organization",
             "id": "organization04",
             "meta": {
-                "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/organization-davinci"]
+                "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/organization-deqm"]
             },
             "active": true,
             "identifier": [
                 {
                     "use": "official",
-                    "system": "http://hl7.org/fhir/sid/us-tin",
+                    "type": "TAX",
+                    "system": "http://hl7.org/fhir/us/davinci-deqm/STU3/sid/us-tin",
                     "value": "456789123",
                     "assigner": {
                         "display": "www.irs.gov"
@@ -581,7 +585,7 @@
           "resourceType": "Practitioner",
           "id": "practioner01",
           "meta": {
-            "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/practitioner-davinci"]
+            "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/practitioner-deqm"]
           },
           "active": true,
           "identifier": [
@@ -618,7 +622,7 @@
           "resourceType": "Practitioner",
           "id": "practioner02",
           "meta": {
-            "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/practitioner-davinci"]
+            "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/practitioner-deqm"]
           },
           "active": true,
           "identifier": [
@@ -655,7 +659,7 @@
           "resourceType": "Practitioner",
           "id": "practioner03",
           "meta": {
-            "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/practitioner-davinci"]
+            "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/practitioner-deqm"]
           },
           "active": true,
           "identifier": [
@@ -692,7 +696,7 @@
             "resourceType": "Location",
             "id": "location01",
             "meta": {
-                "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"]
+                "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location"]
             },
             "name": "DaVinciClinic01",
             "address": [
@@ -718,7 +722,7 @@
             "resourceType": "Location",
             "id": "location02",
             "meta": {
-                "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"]
+                "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location"]
             },
             "name": "DaVinciClinic02",
             "address": [
@@ -744,7 +748,7 @@
             "resourceType": "Location",
             "id": "location03",
             "meta": {
-                "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"]
+                "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location"]
             },
             "name": "DaVinciClinic03",
             "address": [
@@ -770,7 +774,7 @@
             "resourceType": "Coverage",
             "id": "coverage01",
             "meta": {
-                "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/coverage-davinci"]
+                "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/coverage-deqm"]
             },
             "policyHolder": {
                 "reference": "Patient/patient01"
@@ -806,7 +810,7 @@
             "resourceType": "Coverage",
             "id": "coverage02",
             "meta": {
-                "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/coverage-davinci"]
+                "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/coverage-deqm"]
             },
             "policyHolder": {
                 "reference": "Patient/patient02"
@@ -842,7 +846,7 @@
             "resourceType": "Coverage",
             "id": "coverage03",
             "meta": {
-                "profile": ["http://hl7.org/fhir/ig/davinci/StructureDefinition/coverage-davinci"]
+                "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/coverage-deqm"]
             },
             "policyHolder": {
                 "reference": "Patient/patient03"
