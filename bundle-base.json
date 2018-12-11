@@ -353,8 +353,16 @@
             "identifier": [
                 {
                     "use": "official",
-                    "type": "TAX",
-                    "system": "http://hl7.org/fhir/us/davinci-deqm/STU3/sid/us-tin",
+                    "type": {
+                      "coding": [
+                        {
+                          "system": "http://hl7.org/fhir/v2/0203",
+                          "code": "TAX",
+                          "display": "Tax ID number"
+                        }
+                      ]
+                    },
+                    "system": "urn:oid:2.16.840.1.113883.4.4",
                     "value": "123456789",
                     "assigner": {
                         "display": "www.irs.gov"
@@ -408,8 +416,16 @@
             "identifier": [
                 {
                     "use": "official",
-                    "type": "TAX",
-                    "system": "http://hl7.org/fhir/us/davinci-deqm/STU3/sid/us-tin",
+                    "type": {
+                      "coding": [
+                        {
+                          "system": "http://hl7.org/fhir/v2/0203",
+                          "code": "TAX",
+                          "display": "Tax ID number"
+                        }
+                      ]
+                    },
+                    "system": "urn:oid:2.16.840.1.113883.4.4",
                     "value": "234567891",
                     "assigner": {
                         "display": "www.irs.gov"
@@ -463,7 +479,15 @@
             "identifier": [
                 {
                     "use": "official",
-                    "type": "PRN",
+                    "type": {
+                      "coding": [
+                        {
+                          "system": "http://hl7.org/fhir/v2/0203",
+                          "code": "PRN",
+                          "display": "Provider number"
+                        }
+                      ]
+                    },
                     "system": "http://hl7.org/fhir/sid/us-npi",
                     "value": "345678912",
                     "assigner": {
@@ -518,8 +542,16 @@
             "identifier": [
                 {
                     "use": "official",
-                    "type": "TAX",
-                    "system": "http://hl7.org/fhir/us/davinci-deqm/STU3/sid/us-tin",
+                    "type": {
+                      "coding": [
+                        {
+                          "system": "http://hl7.org/fhir/v2/0203",
+                          "code": "TAX",
+                          "display": "Tax ID number"
+                        }
+                      ]
+                    },
+                    "system": "urn:oid:2.16.840.1.113883.4.4",
                     "value": "456789123",
                     "assigner": {
                         "display": "www.irs.gov"
@@ -574,7 +606,13 @@
             {
                 "use": "official",
                 "type": {
-                    "text": "NPI"
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "PRN",
+                      "display": "Provider number"
+                    }
+                  ]
                 },
                 "system": "http://hl7.org/fhir/sid/us-npi",
                 "value": "456789123"
@@ -611,7 +649,13 @@
             {
                 "use": "official",
                 "type": {
-                    "text": "NPI"
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "PRN",
+                      "display": "Provider number"
+                    }
+                  ]
                 },
                 "system": "http://hl7.org/fhir/sid/us-npi",
                 "value": "567891234"
@@ -648,7 +692,13 @@
             {
                 "use": "official",
                 "type": {
-                    "text": "NPI"
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "PRN",
+                      "display": "Provider number"
+                    }
+                  ]
                 },
                 "system": "http://hl7.org/fhir/sid/us-npi",
                 "value": "678912345"
