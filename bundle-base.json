@@ -92,6 +92,10 @@
                     "code" : "2106-3",
                     "display" : "White"
                   }
+                },
+                {
+                  "url" : "text",
+                  "valueString" : "White"
                 }
               ]
             },
@@ -105,6 +109,10 @@
                     "code" : "2186-5",
                     "display" : "Not Hispanic or Latino"
                   }
+                },
+                {
+                  "url" : "text",
+                  "valueString" : "Not Hispanic or Latino"
                 }
               ]
             }
@@ -205,6 +213,10 @@
                     "code" : "2028-9",
                     "display" : "Asian"
                   }
+                },
+                {
+                  "url" : "text",
+                  "valueString" : "Asian"
                 }
               ]
             },
@@ -218,6 +230,10 @@
                     "code" : "2186-5",
                     "display" : "Not Hispanic or Latino"
                   }
+                },
+                {
+                  "url" : "text",
+                  "valueString" : "Not Hispanic or Latino"
                 }
               ]
             }
@@ -318,6 +334,10 @@
                     "code" : "2054-5",
                     "display" : "Black or African American"
                   }
+                },
+                {
+                  "url" : "text",
+                  "valueString" : "Black or African American"
                 }
               ]
             },
@@ -331,6 +351,10 @@
                     "code" : "2186-5",
                     "display" : "Not Hispanic or Latino"
                   }
+                },
+                {
+                  "url" : "text",
+                  "valueString" : "Not Hispanic or Latino"
                 }
               ]
             }
