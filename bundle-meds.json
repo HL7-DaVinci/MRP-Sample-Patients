@@ -41,16 +41,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
-                  }
-              ]
+            "doseQuantity": {
+                    "value": 1,
+                    "unit": "{tablet}",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "{tablet}"
+                }
               }
           ]
       },
@@ -98,16 +94,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
-                  }
-              ]
+                "doseQuantity": {
+                        "value": 1,
+                        "unit": "{tablet}",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "{tablet}"
+                    }
               }
           ]
       },
@@ -155,16 +147,12 @@
                   "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                       "value": 1,
                       "unit": "{tablet}",
                       "system": "http://unitsofmeasure.org",
                       "code": "{tablet}"
                   }
-                  }
-              ]
               }
           ]
       },
@@ -212,16 +200,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -269,16 +253,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -326,16 +306,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -383,16 +359,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -440,16 +412,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -497,16 +465,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -554,16 +518,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -611,16 +571,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -668,16 +624,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -725,16 +677,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -782,16 +730,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
@@ -839,16 +783,12 @@
                       "periodUnits": "d"
                   }
               },
-              "doseAndRate": [
-                  {
                   "doseQuantity": {
                           "value": 1,
                           "unit": "{tablet}",
                           "system": "http://unitsofmeasure.org",
                           "code": "{tablet}"
                       }
-                  }
-              ]
               }
           ]
       },
