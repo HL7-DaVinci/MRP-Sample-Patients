@@ -643,9 +643,7 @@
             }
           ],
           "name": {
-            "family": [
-                "Hale"
-            ],
+            "family": "Hale",
             "given": [
                 "Cody"
             ],
@@ -686,9 +684,7 @@
             }
           ],
           "name": {
-            "family": [
-                "Watkins"
-            ],
+            "family": "Watkins",
             "given": [
                 "Keaton"
             ],
@@ -729,9 +725,7 @@
             }
           ],
           "name": {
-            "family": [
-                "Baldwin"
-            ],
+            "family": "Baldwin",
             "given": [
                 "Kristina"
             ],
@@ -755,7 +749,7 @@
                 "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location"]
             },
             "name": "DaVinciClinic01",
-            "address": [
+            "address":
                 {
                     "line": [
                         "102 Heritage Dr."
@@ -765,7 +759,6 @@
                     "postalCode": "08873",
                     "country": "USA"
                 }
-            ]
         },
         "request": {
           "method": "PUT",
@@ -781,7 +774,7 @@
                 "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location"]
             },
             "name": "DaVinciClinic02",
-            "address": [
+            "address":
                 {
                     "line": [
                         "21 W. Atlantic Street"
@@ -791,7 +784,6 @@
                     "postalCode": "08873",
                     "country": "USA"
                 }
-            ]
         },
         "request": {
           "method": "PUT",
@@ -807,7 +799,7 @@
                 "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location"]
             },
             "name": "DaVinciClinic03",
-            "address": [
+            "address":
                 {
                     "line": [
                         "550 Griffin Rd."
@@ -817,7 +809,6 @@
                     "postalCode": "48033",
                     "country": "USA"
                 }
-            ]
         },
         "request": {
           "method": "PUT",

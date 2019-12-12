@@ -7,10 +7,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest01",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -38,7 +46,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
             "doseQuantity": {
@@ -60,10 +68,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest02",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -91,7 +107,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                 "doseQuantity": {
@@ -113,10 +129,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest03",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -144,7 +168,7 @@
                   "repeat": {
                   "frequency": 2,
                   "period": 1,
-                  "periodUnits": "d"
+                  "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -166,10 +190,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest04",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -197,7 +229,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -219,10 +251,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest05",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -250,7 +290,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -272,10 +312,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest06",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -303,7 +351,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -325,10 +373,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest07",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -356,7 +412,7 @@
                   "repeat": {
                       "frequency": 2,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -378,10 +434,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest08",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -409,7 +473,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -431,10 +495,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest09",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -462,7 +534,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -484,10 +556,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest10",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -515,7 +595,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -537,10 +617,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest11",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -568,7 +656,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -590,10 +678,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest12",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -621,7 +717,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -643,10 +739,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest13",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -674,7 +778,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -696,10 +800,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest14",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -727,7 +839,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
@@ -749,10 +861,18 @@
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest15",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient03"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner03"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -780,7 +900,7 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
                   "doseQuantity": {
