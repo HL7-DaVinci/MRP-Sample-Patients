@@ -18,7 +18,9 @@
               "reference": "Patient/patient01"
           },
           "requester": {
-            "reference": "Practitioner/practitioner01"
+            "agent": {
+                "reference": "Practitioner/practitioner01"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -79,7 +81,9 @@
               "reference": "Patient/patient01"
           },
           "requester": {
-            "reference": "Practitioner/practitioner01"
+            "agent": {
+                "reference": "Practitioner/practitioner01"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -140,7 +144,9 @@
               "reference": "Patient/patient01"
           },
           "requester": {
-            "reference": "Practitioner/practitioner01"
+            "agent": {
+                "reference": "Practitioner/practitioner02"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -201,7 +207,9 @@
               "reference": "Patient/patient01"
           },
           "requester": {
-            "reference": "Practitioner/practitioner01"
+            "agent": {
+                "reference": "Practitioner/practitioner01"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -262,7 +270,9 @@
               "reference": "Patient/patient01"
           },
           "requester": {
-            "reference": "Practitioner/practitioner01"
+            "agent": {
+                "reference": "Practitioner/practitioner01"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -323,7 +333,9 @@
               "reference": "Patient/patient01"
           },
           "requester": {
-            "reference": "Practitioner/practitioner01"
+            "agent": {
+                "reference": "Practitioner/practitioner01"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -384,7 +396,9 @@
               "reference": "Patient/patient01"
           },
           "requester": {
-            "reference": "Practitioner/practitioner01"
+            "agent": {
+                "reference": "Practitioner/practitioner01"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -445,7 +459,9 @@
               "reference": "Patient/patient01"
           },
           "requester": {
-            "reference": "Practitioner/practitioner01"
+            "agent": {
+                "reference": "Practitioner/practitioner01"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -506,7 +522,9 @@
               "reference": "Patient/patient01"
           },
           "requester": {
-            "reference": "Practitioner/practitioner01"
+            "agent": {
+                "reference": "Practitioner/practitioner01"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -567,7 +585,9 @@
               "reference": "Patient/patient02"
           },
           "requester": {
-            "reference": "Practitioner/practitioner02"
+            "agent": {
+                "reference": "Practitioner/practitioner02"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -628,7 +648,9 @@
               "reference": "Patient/patient02"
           },
           "requester": {
-            "reference": "Practitioner/practitioner02"
+            "agent": {
+                "reference": "Practitioner/practitioner02"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -689,7 +711,9 @@
               "reference": "Patient/patient02"
           },
           "requester": {
-            "reference": "Practitioner/practitioner02"
+            "agent": {
+                "reference": "Practitioner/practitioner02"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -750,7 +774,9 @@
               "reference": "Patient/patient02"
           },
           "requester": {
-            "reference": "Practitioner/practitioner02"
+            "agent": {
+                "reference": "Practitioner/practitioner02"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -811,7 +837,9 @@
               "reference": "Patient/patient02"
           },
           "requester": {
-            "reference": "Practitioner/practitioner02"
+            "agent": {
+                "reference": "Practitioner/practitioner02"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -872,7 +900,9 @@
               "reference": "Patient/patient03"
           },
           "requester": {
-            "reference": "Practitioner/practitioner03"
+            "agent": {
+                "reference": "Practitioner/practitioner03"
+            }
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {

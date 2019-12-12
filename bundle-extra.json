@@ -172,7 +172,9 @@
             "reference": "Patient/cf-1548845717752"
         },
         "requester": {
-          "reference": "Practitioner/practitioner01"
+          "agent": {
+            "reference": "Practitioner/practitioner01"
+          }
         },
         "authoredOn": "2018-07-01",
         "dosageInstruction": [
@@ -210,7 +212,9 @@
             "reference": "Patient/cf-1548845717752"
         },
         "requester": {
-          "reference": "Practitioner/practitioner01"
+          "agent": {
+            "reference": "Practitioner/practitioner01"
+          }
         },
         "medicationCodeableConcept": {
           "coding": [
@@ -257,7 +261,9 @@
             "reference": "Patient/cf-1548845717752"
         },
         "requester": {
-          "reference": "Practitioner/practitioner01"
+          "agent": {
+            "reference": "Practitioner/practitioner01"
+          }
         },
         "medicationCodeableConcept": {
           "coding": [
@@ -304,7 +310,9 @@
             "reference": "Patient/cf-1548845717752"
         },
         "requester": {
-          "reference": "Practitioner/practitioner01"
+          "agent": {
+            "reference": "Practitioner/practitioner01"
+          }
         },
         "medicationCodeableConcept": {
           "coding": [
@@ -351,7 +359,9 @@
             "reference": "Patient/cf-1548845717752"
         },
         "requester": {
-          "reference": "Practitioner/practitioner01"
+          "agent": {
+            "reference": "Practitioner/practitioner01"
+          }
         },
         "medicationCodeableConcept": {
           "coding": [
@@ -398,7 +408,9 @@
             "reference": "Patient/cf-1548845717752"
         },
         "requester": {
-          "reference": "Practitioner/practitioner01"
+          "agent": {
+            "reference": "Practitioner/practitioner01"
+          }
         },
         "medicationCodeableConcept": {
           "coding": [
@@ -445,7 +457,9 @@
             "reference": "Patient/cf-1548845717752"
         },
         "requester": {
-          "reference": "Practitioner/practitioner01"
+          "agent": {
+            "reference": "Practitioner/practitioner01"
+          }
         },
         "medicationCodeableConcept": {
           "coding": [
