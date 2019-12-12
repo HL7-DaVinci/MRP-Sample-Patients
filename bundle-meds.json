@@ -3,14 +3,21 @@
   "type": "transaction",
   "entry": [
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest01",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest01",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
+          "subject": {
               "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -23,14 +30,14 @@
               ]
           },
           "dosageInstruction": [
-              {
+            {
               "text": "1 tab po qd",
               "route": {
                   "coding": [
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -38,16 +45,18 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-            "doseQuantity": {
-                    "value": 1,
-                    "unit": "{tablet}",
-                    "system": "http://unitsofmeasure.org",
-                    "code": "{tablet}"
+              "doseAndRate": [{
+                "doseQuantity": {
+                        "value": 1,
+                        "unit": "TAB",
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                        "code": "TAB"
                 }
-              }
+              }]
+            }
           ]
       },
       "request": {
@@ -56,14 +65,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest02",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest02",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient01"
+          "subject": {
+            "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -83,7 +99,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -91,15 +107,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
+              "doseAndRate": [{
                 "doseQuantity": {
-                        "value": 1,
-                        "unit": "{tablet}",
-                        "system": "http://unitsofmeasure.org",
-                        "code": "{tablet}"
-                    }
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -109,14 +127,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest03",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest03",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient01"
+          "subject": {
+            "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -136,7 +161,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -144,15 +169,17 @@
                   "repeat": {
                   "frequency": 2,
                   "period": 1,
-                  "periodUnits": "d"
+                  "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                      "value": 1,
-                      "unit": "{tablet}",
-                      "system": "http://unitsofmeasure.org",
-                      "code": "{tablet}"
-                  }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -162,14 +189,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest04",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest04",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient01"
+          "subject": {
+            "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -189,7 +223,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -197,15 +231,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -215,14 +251,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest05",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest05",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient01"
+          "subject": {
+            "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -242,7 +285,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -250,15 +293,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -268,14 +313,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest06",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest06",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient01"
+          "subject": {
+            "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -295,7 +347,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -303,15 +355,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -321,14 +375,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest07",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest07",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient01"
+          "subject": {
+            "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -348,7 +409,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -356,15 +417,17 @@
                   "repeat": {
                       "frequency": 2,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -374,14 +437,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest08",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest08",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient01"
+          "subject": {
+            "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -401,7 +471,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -409,15 +479,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -427,14 +499,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest09",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest09",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient01"
+          "subject": {
+            "reference": "Patient/patient01"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner01"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -454,7 +533,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -462,15 +541,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -480,14 +561,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest10",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest10",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient02"
+          "subject": {
+            "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -507,7 +595,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -515,15 +603,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -533,14 +623,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest11",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest11",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient02"
+          "subject": {
+            "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -560,7 +657,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -568,15 +665,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -586,14 +685,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest12",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest12",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient02"
+          "subject": {
+            "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -613,7 +719,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -621,15 +727,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -639,14 +747,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest13",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest13",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient02"
+          "subject": {
+            "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -666,7 +781,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -674,15 +789,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -692,14 +809,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest14",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest14",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient02"
+          "subject": {
+            "reference": "Patient/patient02"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner02"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -719,7 +843,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -727,15 +851,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -745,14 +871,21 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest15",
       "resource": {
           "resourceType": "MedicationRequest",
           "id": "medicationrequest15",
+          "meta" : {
+            "profile" : [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+            ]
+          },
           "status": "active",
           "intent": "order",
-          "patient": {
-              "reference": "Patient/patient03"
+          "subject": {
+            "reference": "Patient/patient03"
+          },
+          "requester": {
+            "reference": "Practitioner/practitioner03"
           },
           "authoredOn": "2018-07-01",
           "medicationCodeableConcept": {
@@ -772,7 +905,7 @@
                       {
                           "system": "http://snomed.info/sct",
                           "code": "26643006",
-                          "display": "Oral Route (qualifier value)"
+                          "display": "Oral Route"
                       }
                   ]
               },
@@ -780,15 +913,17 @@
                   "repeat": {
                       "frequency": 1,
                       "period": 1,
-                      "periodUnits": "d"
+                      "periodUnit": "d"
                   }
               },
-                  "doseQuantity": {
-                          "value": 1,
-                          "unit": "{tablet}",
-                          "system": "http://unitsofmeasure.org",
-                          "code": "{tablet}"
-                      }
+              "doseAndRate": [{
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "TAB",
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                    "code": "TAB"
+                }
+              }]
               }
           ]
       },
@@ -798,7 +933,6 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list01",
       "resource": {
           "resourceType": "List",
           "id": "list01",
@@ -842,7 +976,6 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list02",
       "resource": {
           "resourceType": "List",
           "id": "list02",
@@ -892,7 +1025,6 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list03",
       "resource": {
           "resourceType": "List",
           "id": "list03",
@@ -924,7 +1056,6 @@
       }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list04",
       "resource": {
           "resourceType": "List",
           "id": "list04",
@@ -962,7 +1093,6 @@
       }
     },
     {
-        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list05",
         "resource": {
             "resourceType": "List",
             "id": "list05",
@@ -982,7 +1112,6 @@
         }
     },
     {
-      "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list06",
       "resource": {
           "resourceType": "List",
           "id": "list06",
